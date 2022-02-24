@@ -2,10 +2,15 @@
 
 module.exports = function (environment) {
   let ENV = {
-    modulePrefix: 'lel',
+    modulePrefix: 'autotracking-regression-repro',
     environment,
     rootURL: '/',
     locationType: 'auto',
+    changeTracker: {
+      trackHasMany: false,
+      auto: true,
+      enableIsDirty: true,
+    },
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build

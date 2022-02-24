@@ -1,8 +1,8 @@
 {
-  "name": "lel",
+  "name": "autotracking-regression-repro",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for lel goes here",
+  "description": "Small description for autotracking-regression-repro goes here",
   "repository": "",
   "license": "MIT",
   "author": "",
@@ -70,6 +70,7 @@
     "ember-concurrency-async": "^1.0.0",
     "ember-concurrency-ts": "^0.3.1",
     "ember-data": "~3.28.6",
+    "ember-data-change-tracker": "^0.10.1",
     "ember-data-model-fragments": "~5.0.0-beta.3",
     "ember-export-application-global": "^2.0.1",
     "ember-fetch": "^8.1.1",
@@ -87,6 +88,7 @@
     "eslint-plugin-prettier": "^3.4.1",
     "eslint-plugin-qunit": "^6.2.0",
     "loader.js": "^4.7.0",
+    "msw": "^0.38.1",
     "npm-run-all": "^4.1.5",
     "prettier": "^2.5.1",
     "qunit": "^2.17.2",
@@ -98,5 +100,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "msw": {
+    "workerDirectory": "public"
   }
 }

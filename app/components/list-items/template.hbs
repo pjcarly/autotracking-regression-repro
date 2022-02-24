@@ -1,0 +1,9 @@
+<ul>
+  {{#each this.records as |record|}}
+    <li>
+      {{record.name}}
+      {{record.geolocation.lat}},
+      {{record.geolocation.lng}}
+    </li>
+  {{/each}}
+</ul>

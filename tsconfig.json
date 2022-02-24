@@ -22,10 +22,10 @@
     "module": "es6",
     "experimentalDecorators": true,
     "paths": {
-      "lel/tests/*": [
+      "autotracking-regression-repro/tests/*": [
         "tests/*"
       ],
-      "lel/*": [
+      "autotracking-regression-repro/*": [
         "app/*"
       ],
       "*": [
