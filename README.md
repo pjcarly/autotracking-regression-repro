@@ -1,7 +1,9 @@
 # autotracking-regression-repro
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This repo is a reproduction use case of an issues logged on the following repos:
+
+- [ember-data-change-tracker#issue/109](https://github.com/danielspaniel/ember-data-change-tracker/issues/109)
+- [ember-data-model-fragments#issue/427](https://github.com/adopted-ember-addons/ember-data-model-fragments/issues/427)
 
 ## Prerequisites
 
